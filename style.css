@@ -174,6 +174,27 @@ html {
 .app.dark .card__title--description p {
     color: var(--text-color-dark);
 }
+
+.card__title--proman {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.card__title--proman p {
+    position: relative;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 400;
+    color: var(--text-color);
+    line-height: 1.8rem;
+}
+
+.app.dark .card__title--proman p {
+    color: var(--text-color-dark);
+}
 .mt-10 {
     margin-top: 20px;
 }
